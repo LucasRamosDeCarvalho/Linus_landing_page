@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #FAF9F7;
+}
+
+
+header{
+    border-radius: 50px;
+    margin: 10px;
+    background-color: #DAF4FF;
+}
+
+#instituto_linus{
+    margin-left: 25px;
+}
+
+header > .header{
+    padding: 20px;
+}
+
+header > .header,  header > .header > nav, header > .header > nav > ul{
+    display: flex;
+    text-align: center;
+}
+
+header > .header > nav{
+    margin-left: 250px;
+}
+
+header > .header > nav > ul > li{
+    margin-left: 40px;
+}
+
+header > .header > nav > ul > li > a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+header > .header > nav > a{
+    margin-left: 425px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+main{
+    text-align: center;
+}
+
+.nossos_valores{
+    margin-top: 50px;
+}
+
+.nossos_valores_texto{
+    margin: 40px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#potencial{
+    color: #CB30E0;
+}
+
+#texto_header{
+    width: 400px;
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+header > .header > #texto > #texto_header > h1{
+    font-size: 50px;
+}
+
+header > .header > #texto > #texto_header > h6{
+    font-size: 18px;
+    margin-top: 12.5px;
+}
+
+.conteiner_main{
+    padding: 100px;
+}
+
+.sobre_nos{
+    display: flex;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #C38BF3;
+}
+
+footer > div{
+    margin: 100px;
+}
+
+span{
+    font-weight: bold
+}
+
+.nome_professores{
+    text-align: left;
+    margin-left: 25px;
+}
+
+.cor_cinza{
+    color: #666680;
+}
+
+/* IMAGENS */
+
+#menina_img{
+    margin-left: 400px;
+    margin-top: -50px;
+    width: 550px;
+}
+
+.title{
+    margin: 40px;
+}
+
+.nossos_valores_img{
+    width: 100px;
+    margin: 15px;
+}
+
+#aviao_de_papel{
+    width: 82.29px;
+    margin: 15px;
+}
+
+.pessoas_img{
+    width: 400px;
+    margin: 25px;
+}
+
+.professores{
+    width: 400px;
+    margin: 20px;
+}
+
+#linus_logo{
+    width: 75px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+#campus{
+    width: 1250px;
+    margin: 20px;
+}
+
+/* BOTÃO */
+
+
+#faca_sua_matricula > button{
+    border-radius: 18px;
+    padding: 10px;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #524FD5;
+}
+
+#comece_aqui > button{
+    border-radius: 18px;
+    padding: 15px;
+    margin-right: 258px;
+    border-color: #524FD5;
+    background-color: #524FD5;
+    color: #FFFFFF;
+}
+
+button:hover {
+    opacity: 0.7;
+}
